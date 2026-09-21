@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="제품의 본질을 발견하고 좋은 경험으로 만드는 Backend Developer 김예진의 포트폴리오">
+  <title>김예진 — Backend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="김예진 홈">
+        <span class="brand-mark">K</span>
+        <span>YEJIN KIM</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span class="sr-only">메뉴 열기</span>
+        <span></span><span></span>
+      </button>
+      <nav id="main-nav" class="main-nav" aria-label="주요 메뉴">
+        <a href="#about">소개</a>
+        <a href="#work">프로젝트</a>
+        <a class="nav-contact" href="#contact">연락하기 <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-spacing" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR SELECT PROJECTS</p>
+          <h1 id="hero-title">사람과 제품 사이에<br><em>좋은 흐름</em>을 만듭니다.</h1>
+          <p class="hero-intro">안정적이고 확장 가능한 서버를 설계하고, 복잡한 문제를 명확한 코드로 해결하는 Backend Developer 김예진입니다.</p>
+          <a class="button button-primary" href="#work">작업물 둘러보기 <span>↓</span></a>
+        </div>
+        <div class="hero-visual" aria-label="프로필 이미지 일러스트">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="profile-card">
+            <div class="profile-topline"><span>PS / 28</span><span>SEOUL, KR</span></div>
+            <div class="profile-avatar">
+              <div class="avatar-shape"></div>
+              <span class="avatar-star">✦</span>
+              <span class="avatar-label">HELLO!</span>
+            </div>
+            <div class="profile-bottomline"><span>BACKEND DEVELOPER</span><span>2024—NOW</span></div>
+          </div>
+          <span class="floating-note note-one">curiosity<br>over ego</span>
+          <span class="floating-note note-two">✳</span>
+        </div>
+      </section>
+
+      <section id="about" class="about section-spacing" aria-labelledby="about-title">
+        <div class="section-label"><span>01</span><span>ABOUT ME</span></div>
+        <div class="about-content">
+          <h2 id="about-title">문제를 제대로 이해하면<br><em>답은 자연스럽게</em> 보입니다.</h2>
+          <div class="about-details">
+            <p>저는 사용자의 작은 망설임에서 출발합니다. 리서치와 데이터로 문제를 선명하게 정의하고, 팀과 함께 오래 사랑받는 제품을 설계합니다.</p>
+            <div class="timeline">
+              <div><strong>2022 — 현재</strong><span>Studio K / Backend Developer</span></div>
+              <div><strong>2019 — 2022</strong><span>주식회사 모먼트 / UX Designer</span></div>
+              <div><strong>2015 — 2019</strong><span>홍익대학교 / 시각디자인</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="work section-spacing" aria-labelledby="work-title">
+        <div class="section-heading">
+          <div class="section-label"><span>02</span><span>SELECTED WORK</span></div>
+          <h2 id="work-title">더 나은 일상을 만든<br><em>세 가지 장면</em></h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-lilac">
+            <div class="project-meta"><span>01 / 03</span><span>PRODUCT DESIGN</span></div>
+            <div class="project-visual visual-fin">
+              <div class="mini-window">
+                <span class="window-label">fin.</span>
+                <div class="chart-lines"><i></i><i></i><i></i><i></i></div>
+                <div class="chart-dot"></div>
+                <b>₩ 2,450,000</b>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Fin. — 나를 위한 금융 루틴</h3>
+              <p>복잡한 금융 데이터를 매일의 습관으로 바꾼 개인 자산관리 서비스</p>
+              <div class="tag-list"><span>UX/UI</span><span>0 to 1</span><span>2024</span></div>
+            </div>
+          </article>
+          <article class="project-card project-mint">
+            <div class="project-meta"><span>02 / 03</span><span>BRAND EXPERIENCE</span></div>
+            <div class="project-visual visual-bloom">
+              <div class="bloom-flower"><span>Bloom</span></div>
+              <div class="bloom-copy">small steps,<br>big change.</div>
+            </div>
+            <div class="project-info">
+              <h3>Bloom — 식물과 함께 자라는 집</h3>
+              <p>초보 식집사를 위한 맞춤형 케어 가이드와 커뮤니티 경험</p>
+              <div class="tag-list"><span>BRANDING</span><span>APP</span><span>2023</span></div>
+            </div>
+          </article>
+          <article class="project-card project-coral">
+            <div class="project-meta"><span>03 / 03</span><span>CAMPAIGN</span></div>
+            <div class="project-visual visual-mono">
+              <div class="mono-ring"></div>
+              <strong>PAUSE<br>IS ALSO<br>PROGRESS.</strong>
+              <span class="mono-caption">A campaign for slow days</span>
+            </div>
+            <div class="project-info">
+              <h3>Pause — 멈춤을 위한 캠페인</h3>
+              <p>바쁜 도시의 속도를 잠시 늦추는 오프라인 브랜드 캠페인</p>
+              <div class="tag-list"><span>CAMPAIGN</span><span>2022</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section-spacing" aria-labelledby="contact-title">
+        <div class="section-label"><span>03</span><span>LET'S TALK</span></div>
+        <div class="contact-content">
+          <h2 id="contact-title">함께 좋은 것을<br><em>만들어 볼까요?</em></h2>
+          <div>
+            <p>새로운 프로젝트, 협업, 혹은 가벼운 인사도 좋아요.<br>편한 방법으로 연락해 주세요.</p>
+            <a class="email-link" href="mailto:hello@yejinkim.dev">hello@yejinkim.dev <span>↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> YEJIN KIM</span>
+      <div class="social-links"><a href="#contact">INSTAGRAM</a><a href="#contact">LINKEDIN</a><a href="#top">BACK TO TOP ↑</a></div>
+    </footer>
+  </div>
+</body>
+</html>
